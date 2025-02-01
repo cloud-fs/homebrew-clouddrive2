@@ -15,12 +15,11 @@ class Clouddrive2 < Formula
         sha256 "c92abc697a42310b54f632458bb90968f0910eda995f2051bfd671de6dd89a6b"
   
     def install
-        
+
     end
   
     def caveats
       <<~EOS
-        This formula installs a proprietary, closed-source CLI for CloudDrive.
         Usage: clouddrive [options].
       EOS
     end
