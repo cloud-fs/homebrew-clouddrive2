@@ -13,9 +13,10 @@ class Clouddrive2 < Formula
     else
         url "https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v0.8.7/clouddrive-2-macos-aarch64-0.8.7.tgz"
         sha256 "c92abc697a42310b54f632458bb90968f0910eda995f2051bfd671de6dd89a6b"
+    end
   
     def install
-
+        bin.install "clouddrive"
     end
   
     def caveats
