@@ -40,3 +40,4 @@ To completely remove clouddrive2 from your system:
 brew services stop clouddrive2
 brew uninstall clouddrive2
 ```
+Note: User data is retained after uninstallation. To completely remove user data, manually delete the directory at $HOME/Waytech/CloudDrive2
