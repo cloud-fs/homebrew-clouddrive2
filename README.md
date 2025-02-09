@@ -41,3 +41,12 @@ brew services stop clouddrive2
 brew uninstall clouddrive2
 ```
 Note: User data is retained after uninstallation. To completely remove user data, manually delete the directory at $HOME/Waytech/CloudDrive2
+
+### Upgrading clouddrive2
+You can always use OTA to upgrade your clouddrive2 to the newest version in clouddrive2's webui, if you want to upgrade the homebrew package:
+```sh
+brew services stop clouddrive2
+brew update
+brew upgrade clouddrive2
+brew services start clouddrive2
+```
