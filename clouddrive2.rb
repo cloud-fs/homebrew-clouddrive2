@@ -1,7 +1,7 @@
 class Clouddrive2 < Formula
   desc "CloudDrive2"
   homepage "https://www.clouddrive2.com"
-  version "0.8.7"
+  version "0.8.8"
   license "Proprietary"
 
   #depends_on "macfuse"
