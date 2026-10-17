@@ -1,17 +1,17 @@
 class Clouddrive2 < Formula
   desc "CloudDrive2"
   homepage "https://www.clouddrive2.com"
-  version "1.1.2"
+  version "1.1.3"
   license "Proprietary"
 
   #depends_on "macfuse"
   #shasum -a 256 file_path
   if Hardware::CPU.arm?
-    url "https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v1.1.2/clouddrive-2-macos-aarch64-1.1.2.tgz"
-    sha256 "80d8ca4e3f68a98cc7af463e472094a36015b0c2d0f3f88cd00620217688cc3c"
+    url "https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v1.1.3/clouddrive-2-macos-aarch64-1.1.3.tgz"
+    sha256 "93058710f7b08a8cfc920baf3cddf5598a83a05ee095e6b605db24d2591ffdda"
   else
-    url "https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v1.1.2/clouddrive-2-macos-x86_64-1.1.2.tgz"
-    sha256 "c2a35373968e8b593c91aa1d4e3d14f3609c7072ede622e1c8f4cfc3f528b785"
+    url "https://github.com/cloud-fs/cloud-fs.github.io/releases/download/v1.1.3/clouddrive-2-macos-x86_64-1.1.3.tgz"
+    sha256 "1dba43da48d39179c92e5ac5474f1f8c976025d87c6f68d622fc4d1e7f33beea"
   end
 
   def install
